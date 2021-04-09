@@ -1,0 +1,104 @@
+/* To place the footer at the buttom */
+main{
+  min-height: 86vh;
+}
+
+.rating span{
+  margin: 0.1rem;
+}
+
+h6{
+  padding: 0.5rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+/* Navigation Bar Styles */
+.headerStyle{
+  background-color: #c2d0d63a!important;
+  /* background-image: radial-gradient(circle, #cfdbed, #97a1b1, #626b79, #313946, #010a18); */
+  /* background-image: radial-gradient(circle, #051937, #051f35, #0f2432, #1b282e, #282b2c); */
+}
+/* ------------------------ */
+
+/* Card Styles */
+.cardStyles {
+  border-radius: 10px !important;
+  border: none !important;
+  box-shadow: 0 5px 5px 0 rgba(133, 133, 133, 0.25);
+  transition: 350ms ease-in-out, box-shadow 300ms ease-in-out;
+}
+
+.cardStyles:hover{
+  background-color: #c2d0d63a;
+  box-shadow: 0 15px 15px 0 rgba(133,133,133,0.25);
+  transform: scale(1.01);
+}
+/* ------------------------ */
+
+/* Footer Styles */
+.footerStyle{
+  background-image: radial-gradient(circle, #051937, #051f35, #0f2432, #1b282e, #282b2c);
+  color: #EDF2F4;
+}
+/* ------------------------ */
+
+.stockStyles{
+  width: 100%;
+  display: flex !important;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+}
+
+/* Review Styles */
+.review-name {
+  font-size: 15px;
+}
+/* ------------------------ */
+
+.search-styles{
+  border: 1px solid #282b2c !important;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.carousel img {
+  display:block;
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
